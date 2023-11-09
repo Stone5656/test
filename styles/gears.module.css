@@ -1,0 +1,56 @@
+.basic {
+    font-size: var(--heading2);
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+}
+
+.gear {
+    position: relative;
+    width: 13vh;
+    height: 13vh;
+    border: 1vh dashed #77787B;
+    border-radius: 50%;
+    background: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+    animation: Turn 4s infinite linear;
+}
+
+.center {
+    width: 50%;
+    height: 50%;
+    border:  3%;
+    border-radius: 50%;
+    background: #77787B;
+}
+
+.topLeft {
+    composes: basic;
+    position: absolute;
+    z-index: 51;
+    transform: rotate(-360deg);
+    animation: Rotate 4s infinite linear;
+}
+
+@keyframes Turn{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes Rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}

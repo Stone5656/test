@@ -1,0 +1,14 @@
+.geat {
+  background-color: #77787b;
+  height: 20vh;
+  border-top: solid 4vh;
+  border-image: repeating-linear-gradient(
+      45deg,
+      yellow,
+      yellow 2%,
+      black calc(2% + 1px),
+      black 4%,
+      yellow calc(4% + 1px)
+    )
+    10%;
+}

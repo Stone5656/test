@@ -1,0 +1,117 @@
+.bg {
+  padding: 2%;
+  background: no-repeat center top;
+  background-size: cover;
+  height: 160vh;
+  width: 100%;
+  background-image: url("../public/kairanban.jpg");
+  margin: auto;
+}
+
+.sheet {
+  position: relative;
+  padding-bottom: 3rem;
+  margin: auto;
+  max-width: 90%;
+  height: 70%;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 1%;
+  margin-top: 20%;
+  text-align: center;
+}
+
+
+
+.checkbox {
+  position: relative;
+  text-align: center;
+}
+
+#check:before {
+  content: "";
+  position: absolute;
+  top: 0.35em;
+  left: 6px;
+  -webkit-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  transform: rotate(50deg);
+  width: 3px;
+  height: 7px;
+  border-right: 0.1rem solid #8b6b4e;
+  border-bottom: 0.1rem solid #8b6b4e;
+  margin-left: 20%;
+}
+
+.checkbox:after {
+  content: "";
+  position: absolute;
+  top: 0.2em;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #8b6b4e;
+  border-radius: 2px;
+  margin-left: 20%;
+}
+
+.h2 {
+  text-align: center;
+  position: relative;
+  padding-top: 5%;
+}
+
+.h2box {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border: 0.2rem solid #000;
+  border-radius: 1%;
+  width: 40%;
+  top: 3rem;
+  margin: 0 auto;
+}
+
+.start {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10%;
+}
+
+.member {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 14px;
+}
+
+.gaiyou {
+  font-size: var(--small-heading2);
+}
+
+.projectIcon {
+  width: 25%;
+  height: 25%;
+  margin-left: 5%;
+  border: 0.2rem solid #000;
+}
+
+.title{
+  position: relative;
+  white-space: pre;
+  font-size: var(--heading1);
+  left: 40%;
+  transform: translate(-50%);
+}
+
+.content{
+  padding-top: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin: auto;
+  white-space: pre;
+}

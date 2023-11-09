@@ -1,0 +1,27 @@
+.basic {
+    font-size: var(--heading3);
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+}
+
+.ul {
+    background-color: #77787B;
+    height: 20vh;
+    border-bottom: solid 4vh;
+    border-image: 
+    repeating-linear-gradient(45deg, yellow, yellow 2%, black calc(2% + 1px),
+    black 4%, yellow calc(4% + 1px)) 10%;
+}
+
+.list {
+    composes: basic;
+    display: flex;
+    justify-content: center;
+    line-height: 17vh;
+    gap: 2rem;
+    margin-left: 16vw;
+}
+
+.list li:hover {
+    color: red;
+}
